@@ -59,12 +59,12 @@ The environment variables you setup in the previous step, and some other configu
 
 You can go ahead and create an account.
 
-The Fuseki interface is accessible at http://localhost:3030. In local environment, the login and password are "admin". After having created your first account, a dataset should be created with the same name. There should be a `settings` dataset as well, which list all available accounts.
+The Fuseki interface is accessible at http://localhost:3030. In local environment, the login and password are "admin". After having created your first account, a dataset should be created with the same name. There should be a `settings` dataset as well, that lists all available accounts.
 
 ![](../../../assets/local-fuseki-front.png)
 
 :::note
-If there is a problem, in particular if the second link is not working, you can access the Pod provider backend with this command `make attach-activitypods`. This will give you access to ActivityPods' Moleculer CLI. [Moleculer](https://moleculer.services/) is the microservice framework that all ActivityPods services run on. If there are errors, they will be displayed here.
+If there is a problem, in particular if the second link is not working, you can access the Pod provider backend with the command `make attach-activitypods`. This will give you access to ActivityPods' Moleculer CLI. [Moleculer](https://moleculer.services/) is the microservice framework that all ActivityPods services run on. If there are errors, they will be displayed here.
 :::
 
 ## Launch the app backend
@@ -98,7 +98,7 @@ A browser window should automatically be launched. If not, you can access the ap
 
 ## Play with the boilerplate
 
-The "Hot module reload" feature is activated on the frontend, so you can do changes to the code and it will be visible almost immediately.
+The "Hot module reload" feature is enabled on the frontend, so you can do changes to the code and they will be visible almost immediately.
 
 :::note
 The "Hot module reload" feature has been temporarily disabled for the backend as it causes [performance issues](https://github.com/activitypods/activitypods/issues/215). You will need to restart the server whenever you make a change.
@@ -108,6 +108,6 @@ For the frontend, check the excellent [React-Admin documentation](https://marmel
 
 For the backend, you will find plenty of documentation on this website.
 
-You can test emails are correctly sent by opening up the Mailcatcher interface at http://localhost:1080. You can also watch the jobs queue at http://localhost:4567
+You can test that emails are correctly sent by opening up the Mailcatcher interface at http://localhost:1080. You can also watch the jobs queue at http://localhost:4567
 
 Enjoy! And if you run into any problem, please don't hesitate to open an [issue](https://github.com/activitypods/activitypods/issues)!
